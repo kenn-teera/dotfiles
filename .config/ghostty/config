@@ -1,4 +1,5 @@
 theme = Catppuccin Mocha
-font-size = 16
+font-size = 15
 title = "Said Ghostty 👻"
-font-family = "RobotoMono NF"
+font-family = "RobotoMono Nerd Font Mono"
+adjust-cell-height = 25%
