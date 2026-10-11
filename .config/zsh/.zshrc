@@ -18,6 +18,8 @@ plugins=(
     web-search
 )
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 source $ZSH/oh-my-zsh.sh
 
 # ========================= Export ========================= #
@@ -25,6 +27,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$HOME/.local/bin:$PATH"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+export PATH="$PATH:/opt/homebrew/bin"
 
 
 # ========================= Alias ========================= #
